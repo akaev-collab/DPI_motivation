@@ -33,13 +33,13 @@ df_load,  df_izm, df_productivity = load_data()
 
 path_to_json = "Structure"
 
-with open (path_to_json +"\greid_level.json", "r", encoding='utf-8') as file: 
+with open (path_to_json +"/greid_level.json", "r", encoding='utf-8') as file: 
     greid_level = json.load(file) # зависимость процента премии от грейда
 
-with open (path_to_json +"\position.json", "r", encoding='utf-8') as file:
+with open (path_to_json +"/position.json", "r", encoding='utf-8') as file:
     position = json.load(file) # завимимости должности от управления
 
-with open (path_to_json +"\structure.json", "r", encoding='utf-8') as file:
+with open (path_to_json +"/structure.json", "r", encoding='utf-8') as file:
     structure = json.load(file) # зависимость мастерской и группу от управления
 
 # Статус выдаче комплетов
