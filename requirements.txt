@@ -9,3 +9,5 @@ st-pages==0.4.5
 python-dateutil==2.8.2
 st-pages==0.4.5
 plotly
+matplotlib
+scipy
