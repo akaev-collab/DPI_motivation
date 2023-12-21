@@ -1,9 +1,7 @@
 import pandas as pd
 import streamlit as st
 import json
-import altair as alt
 import datetime as dt
-
 import plotly.express as px
 import plotly.graph_objects as go
 
